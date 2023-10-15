@@ -1,18 +1,18 @@
 export class RSSFeedItem {
   // https://w3schools.sinsixx.com/rss/rss_item.asp.htm
-  private description: string;
-  private link: string;
-  private title: string;
-  private author?: string;
-  private categories?: string[];
-  private comments?: string;
-  private enclosure?: any;
-  private guid?: string;
-  private pubDate?: string;
-  private source?: string;
-  private thumbnail?: string;
-  private content?: string;
-  private isoDate?: string;
+  public description: string;
+  public link: string;
+  public title: string;
+  public author?: string;
+  public categories?: string[];
+  public comments?: string;
+  public enclosure?: any;
+  public guid?: string;
+  public pubDate?: string;
+  public source?: string;
+  public thumbnail?: string;
+  public content?: string;
+  public isoDate?: string;
   public isRead: boolean = false;
 
   constructor(item: any) {
