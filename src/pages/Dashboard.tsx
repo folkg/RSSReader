@@ -1,5 +1,13 @@
-import React from "react";
+import { useRSSFeeds } from "../hooks/useRSSFeeds";
 
 export default function Dashboard() {
-  return <div>Dashboard</div>;
+  const { feeds } = useRSSFeeds();
+  return (
+    <>
+      <div>Dashboard</div>
+      {feeds.map((feed) => (
+        <div key={feed.title}>{feed.title}</div>
+      ))}
+    </>
+  );
 }

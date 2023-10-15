@@ -2,18 +2,22 @@ import { RSSFeed } from "../models/RSSFeed";
 import { RSSFeedItem } from "../models/RSSFeedItem";
 import xml2js from "xml2js";
 
-export async function createRSSFeed(link: string): Promise<RSSFeed> {
-  return await parseRssFeed(link);
+export async function refreshRSSFeed(staleFeed: RSSFeed): Promise<RSSFeed> {
+  try {
+    return await parseRSSFeed(staleFeed.link);
+  } catch (error) {
+    console.error(error);
+    return staleFeed;
+  }
 }
 
-export async function refreshRssFeed(staleFeed: RSSFeed): Promise<RSSFeed> {
-  return await createRSSFeed(staleFeed.link);
-}
-
-async function parseRssFeed(link: string): Promise<RSSFeed> {
+async function parseRSSFeed(link: string): Promise<RSSFeed> {
   const parser = new xml2js.Parser({ trim: true, explicitArray: false });
 
-  const response = await fetch(link);
+  // TODO: Set up simple bun forwarder to avoid CORS issues in future. Or Next.js relay.
+  const url = "https://cors-anywhere.herokuapp.com/" + link;
+
+  const response = await fetch(url);
   const xmlData = await response.text();
   const parsedFeed = await parser.parseStringPromise(xmlData);
   const rssChannel = parsedFeed.rss.channel;
