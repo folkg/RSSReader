@@ -2,6 +2,7 @@ import { IonButton, IonContent } from "@ionic/react";
 import { useLocation } from "react-router-dom";
 import parse from "html-react-parser";
 import { formatDate } from "../utils/utils";
+import "./Article.css";
 
 export default function Article() {
   const { state } = useLocation();
@@ -11,7 +12,7 @@ export default function Article() {
   return (
     <IonContent className="ion-padding">
       {state ? (
-        <div>
+        <div className="content">
           <h1>{state.title}</h1>
           <h3>{state.author}</h3>
           <h4>{formatDate(state.pubDate)}</h4>
