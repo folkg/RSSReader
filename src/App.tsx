@@ -11,9 +11,9 @@ import "@ionic/react/css/text-transformation.css";
 import "@ionic/react/css/typography.css";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
-import Article from "./pages/Article";
 import Dashboard from "./pages/Dashboard";
 import NotFound from "./pages/NotFound";
+import Reader from "./pages/Reader";
 
 setupIonicReact();
 
@@ -23,7 +23,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Dashboard />} />
-          <Route path="read" element={<Article />} />
+          <Route path="read" element={<Reader />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
