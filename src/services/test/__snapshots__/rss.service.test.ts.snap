@@ -1,0 +1,130 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`createRSSFeed > should return a valid RSSFeed Object 1`] = `
+RSSFeed {
+  "category": undefined,
+  "description": "Book and Weblog - Authored by Garth Turner",
+  "image": undefined,
+  "items": [
+    RSSFeedItem {
+      "author": undefined,
+      "categories": undefined,
+      "comments": "https://www.greaterfool.ca/2023/10/14/scylla-and-charybdis/#comments",
+      "content": "<p><a href=\\"https://www.greaterfool.ca/wp-content/uploads/2023/10/GM.jpg?x77405\\"><img decoding=\\"async\\" fetchpriority=\\"high\\" class=\\"alignnone wp-image-22384\\" src=\\"https://www.greaterfool.ca/wp-content/uploads/2023/10/GM.jpg?x77405\\" alt=\\"\\" width=\\"500\\" height=\\"490\\" srcset=\\"https://www.greaterfool.ca/wp-content/uploads/2023/10/GM.jpg 560w, https://www.greaterfool.ca/wp-content/uploads/2023/10/GM-300x294.jpg 300w, https://www.greaterfool.ca/wp-content/uploads/2023/10/GM-465x456.jpg 465w\\" sizes=\\"(max-width: 500px) 100vw, 500px\\" /></a></p>
+<h6><span style=\\"color: #ffffff;\\">.</span></h6>
+<h5><a href=\\"https://www.greaterfool.ca/wp-content/uploads/2016/08/DOUG.png?x77405\\"><img decoding=\\"async\\" class=\\"alignnone wp-image-11810\\" src=\\"https://www.greaterfool.ca/wp-content/uploads/2016/08/DOUG-150x150.png?x77405\\" alt=\\"DOUG\\" width=\\"100\\" height=\\"100\\" /></a>  <em>By Guest Blogger Doug Rowat</em></h5>
+<h6><span style=\\"color: #ffffff;\\">.</span></h6>
+<p>I’ve often stated that political drama has limited effect on equity markets.</p>
+<p>For example, I’ve cited the volatility of Trump’s presidency, which a casual observer might understandably have felt had negatively impacted equity markets:</p>
+<blockquote><p>During his presidency [Trump] fired an FBI director, a Secretary of State, an Attorney General, a Defense Secretary, several White House chiefs of staff, several national-security advisors and went through a truckload of press secretaries (anyone remember the less-than-two-week stint of Anthony Scaramucci?).</p>
+<p>He also forced a lengthy government shutdown to fund a border wall, was impeached twice, publicly went to war with both the Federal Reserve chairman (who he appointed) and the infectious disease institute director (during a global pandemic no less) and, ultimately, inspired (many would say actively led) an invasion of the US Capitol.</p></blockquote>
+<p>Yet how did the S&amp;P 500 respond during Trump’s tenure as president? With a more than 14% annualized total return.</p>
+<p>As I say this, there might be one political risk that could indeed negatively impact markets: Congress’s failure to keep the US government operating. If the world’s largest economy is hobbled, or worse, grinds to a halt, even briefly, the market will indeed take notice.</p>
+<p>The most noteworthy source of Congressional conflict, of course, is occurring within the Republican party itself with the 40 or so members of the far-right Freedom Caucus refusing to back down on broad-based spending cuts even if it forces a government shutdown.</p>
+<p>Certainly, Republican lawmakers (and Republican voters) must recognize that there has been a political cost to this party division. Of note:</p>
+<ul>
+<li>The 2018 mid-term elections. The president’s party almost always loses House seats during the mid-terms—since 1948, which encompasses 20 mid-term elections, the president’s party has averaged a loss of 25 seats in the House—however, Republicans lost a significantly higher 40 seats in 2018.</li>
+<li>The 2020 presidential election. Trump, of course, lost in 2020, including losing in the key states of Arizona and Georgia and losing the popular vote by about 7 million.</li>
+<li>The 2022 mid-term elections. Democrats strongly outperformed, losing only nine seats in the House (again, the historical average is a loss of 25), but more meaningfully, regaining control of the Senate with two run-off election wins in Georgia.</li>
+<li>More broadly speaking, Republicans have also lost three of the past four presidential elections.<br />
+Biden is a deeply unpopular president (presently with a sub-40% approval rating) with Americans disappointed in his handling of everything from the economy and inflation to the environment and health care. Yet, remarkably, he remains in a dead heat with Trump in the 2024 polls. And, more impressively, the Democrats maintain a significant lead in the 2024 electoral college polls.</li>
+</ul>
+<h3>Landslides: how the 8 Republicans who voted to oust Speaker Kevin McCarthy cared in the 2022 mid-term elections.</h3>
+<p><a href=\\"https://www.greaterfool.ca/wp-content/uploads/2023/10/DOUG-1.png?x77405\\"><img decoding=\\"async\\" class=\\"alignnone wp-image-22383\\" src=\\"https://www.greaterfool.ca/wp-content/uploads/2023/10/DOUG-1.png?x77405\\" alt=\\"\\" width=\\"450\\" height=\\"182\\" srcset=\\"https://www.greaterfool.ca/wp-content/uploads/2023/10/DOUG-1.png 599w, https://www.greaterfool.ca/wp-content/uploads/2023/10/DOUG-1-300x121.png 300w, https://www.greaterfool.ca/wp-content/uploads/2023/10/DOUG-1-465x188.png 465w\\" sizes=\\"(max-width: 450px) 100vw, 450px\\" /></a></p>
+<h6 style=\\"text-align: right;\\"><em>Source: Ballotpedia, Turner Investments</em></h6>
+<p>On the flip side of these disappointing Republican results is the immense popularity of Freedom Caucus members within their own voting districts. In particular, the tremendous popularity of the so-called ‘gang of eight’, the eight Republicans who voted to oust Kevin McCarthy as House speaker (see table above). In the November 2022 mid-terms, the gang of eight won their district elections with, on average, nearly 60% of the overall vote and with an average margin of victory over their next closest opponent of an incredible 23 percentage points.</p>
+<p>Ringleader Matt Gaetz of Florida won his seat in a landslide taking nearly 70% of the overall vote with a 36 percentage-point margin of victory. In other words, it’s highly unlikely that there will be any political cost if this minority Republican contingent continues to be disruptive. In fact, disruptiveness is desired by most their constituents.</p>
+<p>The Republican party is therefore caught between the Scylla and Charybdis—Greek mythology’s version of a rock and a hard place. The disruptiveness is hurting the party overall, but the disruptive lawmakers cannot be incentivized to stop.</p>
+<p>The net result is that there’s merit to Fitch’s downgrade of the US’s credit rating in August from AAA to AA with Fitch citing the “repeated debt limit standoffs” and overall “deterioration in standards of governance” as key reasons for the downgrade.</p>
+<p>So how does this political risk resolve itself? In the near term, probably with continued last-minute debt-limit resolutions and, ironically, probably with Democrat concessions on hot-button issues such as border security or Ukraine-war funding. Resolution of the latest standoff, for instance, was accomplished, in part, by the Democrats giving up their latest round of Ukraine funding. But avoidance of government shutdowns, at least over the coming year, will almost certainly involve only stop-gap measures.</p>
+<p>For the political risk to be removed more substantially would require, naturally, a shift in the Congressional power balance. A strong showing from either the Democrats or the Republicans in the 2024 presidential election or the next mid-term elections could shift this power balance and thus ease the gridlock.</p>
+<p>However, given a sluggish US economy and Biden’s low approval rating on one side, and Trump’s ever-growing legal problems (four indictments and 91 criminal charges at last count) and a Republican party plagued by infighting on the other, it’s hard to see either side making significant progress with voters and the prospect of government shutdowns will likely remain.</p>
+<p>As we’ve detailed many times here, we’re bullish on the US equity market: strong Q4 seasonality, US corporate earnings poised to finally turn positive after several quarters of negative growth and the likelihood that we’re nearing the end of the Fed’s interest-rate tightening cycle all point to a continuation of the market rally that we’ve seen over the past year. Indeed, despite the repeated Congressional standoffs this year, the S&amp;P 500 has still managed to rally 14% y-t-d.</p>
+<p>But we’re always honest with our clients about market risks and the vast division within the US Congress is certainly one of them.</p>
+<p>The probability of a US government shutdown following the new November 17th deadline remains low, but make no mistake, it certainly isn’t zero.</p>
+<h5><em>Doug Rowat, <span lang=\\"EN-CA\\">FCSI®</span> is Portfolio Manager with <a href=\\"http://www.turnerinvestments.ca/\\">Turner Investments</a> and Senior Investment Advisor, Private Client Group, Raymond James Ltd.</em></h5>
+<p>&nbsp;</p>",
+      "description": ".   By Guest Blogger Doug Rowat . I’ve often stated that political drama has limited effect on equity markets. For example, I’ve cited the volatility of Trump’s presidency, which a casual observer might understandably have felt had negatively impacted equity markets: During his presidency [Trump] fired an FBI director, a Secretary of State, an [&#8230;]",
+      "enclosure": undefined,
+      "guid": "https://www.greaterfool.ca/?p=22382",
+      "isRead": false,
+      "isoDate": undefined,
+      "link": "https://www.greaterfool.ca/2023/10/14/scylla-and-charybdis/",
+      "pubDate": "Sat, 14 Oct 2023 13:26:42 +0000",
+      "source": undefined,
+      "thumbnail": undefined,
+      "title": "Scylla and Charybdis",
+    },
+    RSSFeedItem {
+      "author": undefined,
+      "categories": undefined,
+      "comments": "https://www.greaterfool.ca/2023/10/13/war-worries/#comments",
+      "content": "<p><a href=\\"https://www.greaterfool.ca/wp-content/uploads/2023/10/NIMBUS.jpg?x77405\\"><img decoding=\\"async\\" loading=\\"lazy\\" class=\\"alignnone wp-image-22381\\" src=\\"https://www.greaterfool.ca/wp-content/uploads/2023/10/NIMBUS.jpg?x77405\\" alt=\\"\\" width=\\"500\\" height=\\"641\\" srcset=\\"https://www.greaterfool.ca/wp-content/uploads/2023/10/NIMBUS.jpg 1992w, https://www.greaterfool.ca/wp-content/uploads/2023/10/NIMBUS-234x300.jpg 234w, https://www.greaterfool.ca/wp-content/uploads/2023/10/NIMBUS-465x596.jpg 465w, https://www.greaterfool.ca/wp-content/uploads/2023/10/NIMBUS-768x984.jpg 768w, https://www.greaterfool.ca/wp-content/uploads/2023/10/NIMBUS-1198x1536.jpg 1198w, https://www.greaterfool.ca/wp-content/uploads/2023/10/NIMBUS-1598x2048.jpg 1598w\\" sizes=\\"(max-width: 500px) 100vw, 500px\\" /></a></p>
+<p>In the fog of war we know truth is an early casualty. But the headlines are rattling. Israel tells Gazans to move. The UN says no way a million people can vacate in a day. Moreover, there’s no place to go. So it looks like an urban ground war will be a meat grinder, as was the barbaric Hamas invasion on the weekend. No good outcome. The Middle East stays a poisonous cauldron.</p>
+<p>But what if it gets worse? What are the risks to an investor in, say, Trois Rivieres, Sarnia or Airdrie? Do you ignore this noise, or duck?</p>
+<p>First, the context. Things are already a mess.</p>
+<p>The worst European war in eight decades is raging in Ukraine. Tens of thousands dead. Billions wasted. The inflation Vlad Putin’s stupid moves created by upping energy and disrupting trade have hurt the global economy. Rates will be higher for longer. Households in Surrey and Saint John with renewing mortgages will pay for this.</p>
+<p>The North American economy is already vulnerable. Higher rates are taking a toll on our consumer society (two-thirds of the GDP is from spending). A spike in oil caused by a wider Mideast war could turn a soft landing into a hard one. Job losses would be the main result.</p>
+<p>The US is in chaos. At least Congress is. The legislature of the world’s greatest superpower is leaderless after renegade MAGA Republicans turfed their speaker and the party has so far failed in finding a new guy. There’s a pressing need for Congressional action on Israel. And in mere weeks the American government will again run out of cash, facing shutdown as it adds trillions in new debt. Not cool.</p>
+<p>Then there’s Biden v Trump in the next presidential election. Few want it, but each day it looks more likely. Biden’s approval rating has crashed. Trump is charged with 91 criminal offences. If gas goes back to five bucks a gallon, the sitting president’s in deep crap. If Trump wins the White House, there will be a troubled, isolationist America bringing joy to Moscow. And both US contenders are old men.</p>
+<p>Against this backdrop is the spectre of the Israel-Hamas war spreading. What would that mean? Is it likely?</p>
+<p>As a Bloomberg analysis concluded, the conflict could bring a global recession. The key is oil. If militias in Lebanon and Syria join Hamas, or Israel locks horns with Iran – a known sponsor of terrorist groups and Putin ally &#8211; Bloomberg Economics estimates crude could hit $150 a barrel. Global growth would erode. A recession would reduce output by a trillion dollars. Moreover, the Middle East region is a vital and important shipping passageway, just now getting over the damage that Covid did to trade.</p>
+<p>Of course $150 oil would kick the poop out of central bank policies. A 75% increase in the cost of energy would not only shock North American economies, but spike inflation and ensure central banks cling to their high-rate policies – unless things became dire enough for a return to emergency rates. And Dog help us if that happens (Covid 2.0).</p>
+<p>Other consequences could include Biden’s demise, Trump’s ascent, Zelensky’s defeat and a reshuffling of the geopolitical universe . If America becomes protectionist again, little Canada might suffer.</p>
+<p>Now, all this is conjecture. The war could stay in Gaza. So far oil has not spiked dramatically. North American equity markets have shrugged off the conflict. Bond yields have stabilized. Investors have been handed no reason to panic or rush to cash (but gold increased by $46 an ounce yesterday, or 2.5%, as the Israeli invasion approached).</p>
+<p>The real danger is an Israel-Iran dustup. The Israelis are staunchly supported by the US. Iran has ties to Russia and China. Conflict and tension would ignite oil, leading to global inflation approaching 7%, torpedoing the Fed and upending Washington. Would China see the chaos as an opportunity to pounce on Taiwan? How long could Ukraine hold out if America retreated?</p>
+<p>If you fear this scenario, you’re in the minority. But GICs are still paying two or three points more than inflation. Go for it.</p>
+<p>Mr. Market, however, considers it noise. Investors are more focused on jobs, macroeconomic data, quarterly earnings, the AI revolution and monetary policy. A week ago the prospects for 2024 were looking sweet as we near the end of this tightening cycle, with both stock and bond prices promising big gains. Did Hamas wreck all that? Will Netanyahu?</p>
+<p>The best advice probably comes in two words. Do nothing.</p>
+<p><em><strong>About the picture</strong>: &#8220;This is Nimbus,&#8221; writes Tim. &#8220;She&#8217;s a three year old lab/husky rescue from Animatch and she thinks bubbles are as mysterious as they are delicious.&#8221;</em></p>
+<h5 style=\\"text-align: center;\\"><em>To send a picture of your beast, email to &#8216;garth@garth.ca&#8217;.</em></h5>
+<p>&nbsp;</p>",
+      "description": "In the fog of war we know truth is an early casualty. But the headlines are rattling. Israel tells Gazans to move. The UN says no way a million people can vacate in a day. Moreover, there’s no place to go. So it looks like an urban ground war will be a meat grinder, as [&#8230;]",
+      "enclosure": undefined,
+      "guid": "https://www.greaterfool.ca/?p=22380",
+      "isRead": false,
+      "isoDate": undefined,
+      "link": "https://www.greaterfool.ca/2023/10/13/war-worries/",
+      "pubDate": "Fri, 13 Oct 2023 15:07:15 +0000",
+      "source": undefined,
+      "thumbnail": undefined,
+      "title": "War worries",
+    },
+    RSSFeedItem {
+      "author": undefined,
+      "categories": undefined,
+      "comments": "https://www.greaterfool.ca/2023/10/12/lonely-shovels/#comments",
+      "content": "<p><a href=\\"https://www.greaterfool.ca/wp-content/uploads/2023/10/AR.jpg?x77405\\"><img decoding=\\"async\\" loading=\\"lazy\\" class=\\"alignnone size-full wp-image-22378\\" src=\\"https://www.greaterfool.ca/wp-content/uploads/2023/10/AR.jpg?x77405\\" alt=\\"\\" width=\\"486\\" height=\\"648\\" srcset=\\"https://www.greaterfool.ca/wp-content/uploads/2023/10/AR.jpg 486w, https://www.greaterfool.ca/wp-content/uploads/2023/10/AR-225x300.jpg 225w, https://www.greaterfool.ca/wp-content/uploads/2023/10/AR-465x620.jpg 465w\\" sizes=\\"(max-width: 486px) 100vw, 486px\\" /></a></p>
+<p>The sales-to-new-listings ratio in mighty 416 has cratered. Down 44%. That means buyers are fading faster than listings are sprouting. Months of inventory has jumped by a factor of almost four during 2023.</p>
+<p>In Waterloo Region – scene of fervent FOMO two years ago – there is one sale now for every two houses popping up n MLS. Prices are still crazy, but in retreat. In January there were 130 houses on the market. Now that’s ballooned to 1,500.</p>
+<p>In Kelowna, a fav place for YVR refugees to dump money, and plagued this year by hellish wild fires – the ultimate reckoning was delayed by long amortizations. But those will end in the months to come. The estimate now is the average detached price, which hit $1.3 million in early 2022, will plunge to $775,000 by the end of 2023.</p>
+<p>In Ontario cottage country, worry and loss. Price reductions are in full swing and properties listed for $1.5 million and under could drop 30%, says a Muskoka broker. “Many people who bought during the pandemic with a variable-rate mortgage are struggling and their choices have come home to roost. It’s tough out there&#8230; We expect a deluge of listings in the spring which will take a long time to flush out, even if interest rates ease up a little bit. A lot of inventory has to move through the system before demand comes back into balance.”</p>
+<p>In Vancouver there are 11,400 properties for sale, with more than nine thousand finding no buyer last month. In Victoria both sales and prices dropped in September from August. As in most of Canada (except Calgary) there has been no Fall market, traditionally the second-strongest sales period of the year. “Though housing prices have remained reasonably stable this year, the cost of carrying a mortgage has increased tremendously,” say Victoria realtors. “This means that many first-time buyers and families are unable to purchase homes in our current market.”</p>
+<p>Indeed. The stress test has been rising from 8% and now creeps towards 9%. It’s uncertain if central banks will raise their rates once more in 2023 in Canada and the States. But it looks increasingly safe to say no meaningful reductions will take place in 2024. And as detailed here yesterday, 70,000 households a month are being forced into refinancing their cheap-rate home loans. A number of those people will likely choose to bail, and list, instead of taking the financial hit.</p>
+<p>Back to cottage country: “So many sellers are still in the mindset of pandemic prices,” another Muskoka realtor is quoted. “But it’s causing listings to still be on the market for months — some have been on the market since spring. They’re just sitting there. So we’re seeing price reduction after price reduction.”</p>
+<p>In the crosshairs lately is Ottawa’s rule preventing renewers from shopping around for the best possible rate. As with a new mortgage, borrowers who switch banks are forced to prove they have enough income to carry a loan at 2% higher than the rate their lender is offering. Right now, that’s about 8.5% for a fiver. The last time five-year mortgages sat at that level was 23 years ago, before we even knew there were 12 genders.</p>
+<p>Says mortgage broker, blogger and rate aggregator Rob McLister: “By not exempting lender switches from the (now 8%+) mortgage stress test, too many borrowers are trapped. Families pay more—creating incrementally more systemic risk A horrendously anti-consumer policy with no net benefit.”</p>
+<p>He’s right, of course. And thus it’s reasonable to think OSFI may be abandoning this by the end of 2023. (If you can delay your renewal, do so.) It’s a rule change which would add no systemic risk to the market, encourage more rate competition and give embattled homeowners coming off a cheap VRM one more way to hang on.</p>
+<p>Alas, no movement yet from the regulator.</p>
+<p>Meanwhile politicians (Lib and Con) continue to beat the same poor horse. More supply, they say, with Ottawa browbeating municipalities into dumping zoning laws and agreeing to allow fourplexes on single lots in traditional SFH hoods. Calgary succumbed. London, too. Others will follow. Lost in this discussion is the fact it costs a few million to acquire and replace one house with a structure that can accommodate four families. Cities can’t do that. The feds either. So multiplexes will only be created when the economics are favourable for developers – something a 7% prime rate and 10% commercial mortgages do not allow.</p>
+<p>Lots of talk. No shovels.</p>
+<p>Sigh. Sorry, kids.</p>
+<p><em><strong>About the picture:</strong> &#8220;This is Axl Rose,&#8221; writes Marlene,  &#8220;blending in. R.I.P.  she died in May of 2020 at 15yrs of age. We are in Windsor, Ontario.&#8221;</em></p>
+<h5 style=\\"text-align: center;\\"><em>To submit a picture of your beast, email to &#8216;garth@garth.ca.&#8217; </em></h5>
+<p>&nbsp;</p>",
+      "description": "The sales-to-new-listings ratio in mighty 416 has cratered. Down 44%. That means buyers are fading faster than listings are sprouting. Months of inventory has jumped by a factor of almost four during 2023. In Waterloo Region – scene of fervent FOMO two years ago – there is one sale now for every two houses popping [&#8230;]",
+      "enclosure": undefined,
+      "guid": "https://www.greaterfool.ca/?p=22377",
+      "isRead": false,
+      "isoDate": undefined,
+      "link": "https://www.greaterfool.ca/2023/10/12/lonely-shovels/",
+      "pubDate": "Thu, 12 Oct 2023 17:39:16 +0000",
+      "source": undefined,
+      "thumbnail": undefined,
+      "title": "Lonely shovels.",
+    },
+  ],
+  "link": "https://www.greaterfool.ca/feed/",
+  "title": "Greater Fool – Authored by Garth Turner – The Troubled Future of Real Estate",
+}
+`;
