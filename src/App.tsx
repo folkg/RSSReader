@@ -23,7 +23,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Dashboard />} />
-          <Route path="articles/:articleId" element={<Article />} />
+          <Route path="read" element={<Article />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

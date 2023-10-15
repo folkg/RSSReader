@@ -1,7 +1,12 @@
 import { render } from "@testing-library/react";
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import { RSSFeed } from "../../models/RSSFeed";
 import Feed from "../Feed";
+
+// Prevent react router errors
+vi.mock("react-router-dom", () => ({
+  useNavigate: () => vi.fn(),
+}));
 
 describe("Feed", () => {
   const feed = {
