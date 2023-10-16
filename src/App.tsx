@@ -14,19 +14,24 @@ import Layout from "./components/Layout";
 import Dashboard from "./pages/Dashboard";
 import NotFound from "./pages/NotFound";
 import Reader from "./pages/Reader";
+import { RSSFeedsContext, useRSSFeeds } from "./context/useRSSFeeds";
 
 setupIonicReact();
 
 export default function App() {
+  const rssFeeds = useRSSFeeds();
+
   return (
     <IonApp>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Dashboard />} />
-          <Route path="read" element={<Reader />} />
-          <Route path="*" element={<NotFound />} />
-        </Route>
-      </Routes>
+      <RSSFeedsContext.Provider value={rssFeeds}>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Dashboard />} />
+            <Route path="read" element={<Reader />} />
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        </Routes>
+      </RSSFeedsContext.Provider>
     </IonApp>
   );
 }

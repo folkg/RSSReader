@@ -5,19 +5,21 @@ import {
   IonFabList,
   IonIcon,
 } from "@ionic/react";
-import Feed from "../components/Feed";
-import { useRSSFeeds } from "../hooks/useRSSFeeds";
 import { add, chevronUpCircle, refreshOutline } from "ionicons/icons";
+import { useContext } from "react";
+import Feed from "../components/Feed";
+import { RSSFeedsContext } from "../context/useRSSFeeds";
 
 export default function Dashboard() {
-  const { feeds } = useRSSFeeds();
+  const { feeds } = useContext(RSSFeedsContext);
   const addHandler = () => {};
   const refreshHandler = () => {};
+
   return (
     <IonContent className="ion-padding">
       <div className="content">
         {feeds.map((feed) => (
-          <Feed key={feed.title} feed={feed} />
+          <Feed key={feed.link} feed={feed} />
         ))}
       </div>
       <IonFab slot="fixed" vertical="bottom" horizontal="end">

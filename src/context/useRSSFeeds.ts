@@ -1,9 +1,26 @@
-import { useEffect, useRef } from "react";
+import { createContext, useEffect, useRef } from "react";
 import { RSSFeed } from "../models/RSSFeed";
 import { refreshRSSFeed } from "../services/rss.service";
-import { useLocalStorage } from "./useLocalSotrage";
+import { useLocalStorage } from "../hooks/useLocalSotrage";
+import { RSSFeedItem } from "../models/RSSFeedItem";
 
 const defaultFeeds = [new RSSFeed("https://www.greaterfool.ca/feed/")];
+
+type RSSFeedsContextType = {
+  feeds: RSSFeed[];
+  addFeed: (link: string) => Promise<void>;
+  removeFeed: (feed: RSSFeed) => void;
+  refreshFeeds: (feeds: RSSFeed[]) => Promise<void>;
+  replaceFeedItem: (feedItem: RSSFeedItem) => void;
+};
+
+export const RSSFeedsContext = createContext<RSSFeedsContextType>({
+  feeds: defaultFeeds,
+  addFeed: async () => {},
+  removeFeed: () => {},
+  refreshFeeds: async () => {},
+  replaceFeedItem: () => {},
+});
 
 export function useRSSFeeds() {
   const [feeds, setFeeds] = useLocalStorage("feeds", defaultFeeds);
@@ -15,8 +32,8 @@ export function useRSSFeeds() {
     setFeeds([...feeds, newFeed]);
   };
 
-  const removeFeed = (link: string) => {
-    const newFeeds = feeds.filter((feed) => feed.link !== link);
+  const removeFeed = (feed: RSSFeed) => {
+    const newFeeds = feeds.filter((f) => f.link !== feed.link);
     setFeeds(newFeeds);
   };
 
@@ -38,6 +55,20 @@ export function useRSSFeeds() {
     console.log("Feeds refreshed!");
   };
 
+  const replaceFeedItem = (feedItem: RSSFeedItem) => {
+    const updatedFeeds = feeds.map((f) => {
+      const updatedItems = f.items.map((i) => {
+        if (i.link === feedItem.link) {
+          return feedItem;
+        }
+        return i;
+      });
+      f.items = updatedItems;
+      return f;
+    });
+    setFeeds(updatedFeeds);
+  };
+
   useEffect(() => {
     // Refresh all feeds when the number of feeds changes
     // This will happen initially, and when a feed is added or removed
@@ -47,5 +78,5 @@ export function useRSSFeeds() {
     feedsCountRef.current = feeds.length;
   }, [feeds]);
 
-  return { feeds, addFeed, removeFeed, refreshFeeds };
+  return { feeds, addFeed, removeFeed, replaceFeedItem, refreshFeeds };
 }
