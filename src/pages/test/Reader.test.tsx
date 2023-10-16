@@ -26,6 +26,11 @@ describe("Article Present", () => {
     render(<Reader />);
     expect(screen.getByText("Test Article")).toBeInTheDocument();
   });
+
+  // it("renders the summary tab if tab is set to 'summary'", () => {
+  //   render(<Reader />, { initialState: { tab: "summary" } });
+  //   expect(screen.getByText("SummaryComponent")).toBeInTheDocument();
+  // });
 });
 
 describe("Article Not Present", () => {

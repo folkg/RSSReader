@@ -52,7 +52,6 @@ export function useRSSFeeds() {
       .filter((feed): feed is RSSFeed => feed !== null);
 
     setFeeds(freshFeeds);
-    console.log("Feeds refreshed!");
   };
 
   const replaceFeedItem = (feedItem: RSSFeedItem) => {
@@ -63,8 +62,7 @@ export function useRSSFeeds() {
         }
         return i;
       });
-      f.items = updatedItems;
-      return f;
+      return { ...f, items: updatedItems };
     });
     setFeeds(updatedFeeds);
   };

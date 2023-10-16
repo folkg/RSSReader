@@ -21,7 +21,7 @@ export default function Article({ article }: Props) {
         <IonButton onClick={onOpenNewTabClick}>
           View Original in New Tab
         </IonButton>
-        {article.content && <p>{parse(article.content)}</p>}
+        {article.content && parse(article.content)}
       </div>
     </IonContent>
   );

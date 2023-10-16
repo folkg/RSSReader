@@ -10,7 +10,6 @@ export function useLocalStorage<T>(key: string, initialValue: T) {
       return initialValue;
     }
   });
-  console.log("storedValue", storedValue);
 
   const setValue = (value: T) => {
     try {
