@@ -23,7 +23,7 @@ export default function Feed({ feed }: Props) {
       <IonCardContent>
         <IonList>
           {feed.items.map((item) => (
-            <FeedItem key={item.title} item={item} />
+            <FeedItem key={item.link} item={item} />
           ))}
         </IonList>
       </IonCardContent>

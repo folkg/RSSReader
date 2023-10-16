@@ -1,6 +1,6 @@
+import xml2js from "xml2js";
 import { RSSFeed } from "../models/RSSFeed";
 import { RSSFeedItem } from "../models/RSSFeedItem";
-import xml2js from "xml2js";
 
 export async function refreshRSSFeed(staleFeed: RSSFeed): Promise<RSSFeed> {
   try {
@@ -29,7 +29,7 @@ async function parseRSSFeed(link: string): Promise<RSSFeed> {
 
   const items = rssChannel.item;
   for (const item of items) {
-    const feedItem = new RSSFeedItem(item);
+    const feedItem = new RSSFeedItem(item, result.link);
     result.items.push(feedItem);
   }
 

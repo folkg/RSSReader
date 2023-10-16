@@ -14,8 +14,10 @@ export class RSSFeedItem {
   public content?: string;
   public isoDate?: string;
   public isRead: boolean = false;
+  public summary?: string;
+  public feedLink: string;
 
-  constructor(item: any) {
+  constructor(item: any, feedLink: string) {
     this.description = item.description;
     this.link = item.link;
     this.title = item.title;
@@ -29,5 +31,6 @@ export class RSSFeedItem {
     this.thumbnail = item.thumbnail;
     this.content = item.content ?? item["content:encoded"];
     this.isoDate = item.isoDate;
+    this.feedLink = feedLink;
   }
 }
